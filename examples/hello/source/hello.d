@@ -39,7 +39,7 @@ void main(string[] args) {
 			stbuf.st_size = hello_str.length;
 		} else
 			res = -ENOENT;
-	
+		
 		return res;
 	};
 	
@@ -67,6 +67,6 @@ void main(string[] args) {
 	
 		return cast(int)size;
 	};
-		
+	
 	fuse_main(args, &hello_oper);
 }
