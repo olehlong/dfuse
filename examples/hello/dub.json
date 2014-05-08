@@ -1,0 +1,20 @@
+{
+	"name": "dfuse-hello",
+	"description": "FUSE D binding. hello.c example.",
+	"copyright": "Copyright © 2014, Oleh Havrys",
+	"authors": [
+		"Oleh Havrys"
+	],
+	
+	"mainSourceFile": "source/hello.d",
+	"targetType": "executable",
+	
+	"dflags": ["-I../../source"],
+	"lflags": ["-L../../build", "-ldfuse"],
+	"libs": ["fuse"],
+	
+	"dependencies": {
+		"dfuse": {"version": "0.0.2", "path": "../../"}
+	},
+	"versions": ["trace"]
+}

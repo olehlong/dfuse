@@ -1,0 +1,20 @@
+{
+	"name": "dfuse",
+	"description": "FUSE D binding.",
+	"copyright": "Copyright © 2014, Oleh Havrys",
+	"authors": [
+		"Oleh Havrys"
+	],
+	
+	"version": "0.0.2",
+	
+	"configurations": [
+		{
+			"name": "dfuse-lib",
+			"targetType": "library",
+			"targetName": "dfuse",
+			"targetPath": "build",
+			"versions": ["trace"]
+		}
+	]
+}
