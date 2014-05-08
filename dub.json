@@ -5,9 +5,7 @@
 	"authors": [
 		"Oleh Havrys"
 	],
-	
-	"version": "0.0.2",
-	
+		
 	"configurations": [
 		{
 			"name": "dfuse-lib",

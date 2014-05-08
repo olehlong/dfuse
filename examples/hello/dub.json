@@ -14,7 +14,7 @@
 	"libs": ["fuse"],
 	
 	"dependencies": {
-		"dfuse": {"version": "0.0.2", "path": "../../"}
+		"dfuse": {"version": "~master", "path": "../../"}
 	},
 	"versions": ["trace"]
 }
